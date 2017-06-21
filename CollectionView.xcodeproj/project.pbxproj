@@ -15,6 +15,9 @@
 		5E8BCBE21EF258F400DE07D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E8BCBE01EF258F400DE07D2 /* LaunchScreen.storyboard */; };
 		5E8BCBED1EF258F400DE07D2 /* CollectionViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8BCBEC1EF258F400DE07D2 /* CollectionViewTests.swift */; };
 		5E8BCBF81EF258F400DE07D2 /* CollectionViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8BCBF71EF258F400DE07D2 /* CollectionViewUITests.swift */; };
+		5E8BCC061EF25CB800DE07D2 /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8BCC051EF25CB800DE07D2 /* ImageCollectionViewCell.swift */; };
+		5E8BCC081EF25EED00DE07D2 /* HeaderCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8BCC071EF25EED00DE07D2 /* HeaderCollectionReusableView.swift */; };
+		819F5DB91EF90187001267F2 /* detailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819F5DB81EF90187001267F2 /* detailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		5E8BCBF31EF258F400DE07D2 /* CollectionViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollectionViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E8BCBF71EF258F400DE07D2 /* CollectionViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewUITests.swift; sourceTree = "<group>"; };
 		5E8BCBF91EF258F400DE07D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E8BCC051EF25CB800DE07D2 /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		5E8BCC071EF25EED00DE07D2 /* HeaderCollectionReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderCollectionReusableView.swift; sourceTree = "<group>"; };
+		819F5DB81EF90187001267F2 /* detailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = detailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,10 +108,13 @@
 				5E8BCBD41EF258F400DE07D2 /* AppDelegate.swift */,
 				5E8BCBD61EF258F400DE07D2 /* ViewController.swift */,
 				5E8BCBD81EF258F400DE07D2 /* Main.storyboard */,
+				819F5DB81EF90187001267F2 /* detailsViewController.swift */,
 				5E8BCBDE1EF258F400DE07D2 /* Assets.xcassets */,
 				5E8BCBE01EF258F400DE07D2 /* LaunchScreen.storyboard */,
 				5E8BCBE31EF258F400DE07D2 /* Info.plist */,
 				5E8BCBDB1EF258F400DE07D2 /* CollectionView.xcdatamodeld */,
+				5E8BCC051EF25CB800DE07D2 /* ImageCollectionViewCell.swift */,
+				5E8BCC071EF25EED00DE07D2 /* HeaderCollectionReusableView.swift */,
 			);
 			path = CollectionView;
 			sourceTree = "<group>";
@@ -266,7 +275,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E8BCBDD1EF258F400DE07D2 /* CollectionView.xcdatamodeld in Sources */,
+				819F5DB91EF90187001267F2 /* detailsViewController.swift in Sources */,
 				5E8BCBD71EF258F400DE07D2 /* ViewController.swift in Sources */,
+				5E8BCC061EF25CB800DE07D2 /* ImageCollectionViewCell.swift in Sources */,
+				5E8BCC081EF25EED00DE07D2 /* HeaderCollectionReusableView.swift in Sources */,
 				5E8BCBD51EF258F400DE07D2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -520,6 +532,7 @@
 				5E8BCBFE1EF258F400DE07D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5E8BCBFF1EF258F400DE07D2 /* Build configuration list for PBXNativeTarget "CollectionViewTests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +541,7 @@
 				5E8BCC011EF258F400DE07D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5E8BCC021EF258F400DE07D2 /* Build configuration list for PBXNativeTarget "CollectionViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +550,7 @@
 				5E8BCC041EF258F400DE07D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
